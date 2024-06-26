@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/logo-sm.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/all.min.css" />
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <header class="d-none"></header>
+    <nav class="position-sticky top-0 z-3 d-none">
+      <div class="navbar nav-box w-75 m-auto p-2 navbar-expand-lg">
+        <div class="container">
+          <a class="branding text-decoration-none" href="#">
+            <div class="logo d-flex align-items-center">
+              <img src="images/logo-sm.png" alt="" />
+              <h1 class="text-light fs-6 m-1 fw-bolder">GAME REVIWES</h1>
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="d-flex align-items-center justify-content-center"
+              ><i class="fa-solid fa-bars"></i
+            ></span>
+          </button>
+          <div
+            class="collapse navbar-collapse anti-navbar-collapse"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav text-center menu text-light">
+              <li class="nav-item menu-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  id="mmorpg"
+                  >MMORPG</a
+                >
+              </li>
+              <li class="nav-item menu-item">
+                <a class="nav-link" href="#" id="shooter">SHOOTER</a>
+              </li>
+              <li class="nav-item menu-item">
+                <a class="nav-link" href="#" id="sailing">SAILING</a>
+              </li>
+              <li class="nav-item menu-item">
+                <a class="nav-link" href="#" id="permadeath">PERMADEATH</a>
+              </li>
+              <li class="nav-item menu-item">
+                <a class="nav-link" href="#" id="superhero">SUPERHERO</a>
+              </li>
+              <li class="nav-item menu-item">
+                <a class="nav-link" href="#" id="pixel">PIXEL</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="container my-5 home-filter">
+      <section id="gamesSection">
+        <div class="row vh-100 align-items-center" id="gamesRow">
+          <span class="container loader"></span>
+          <!-- <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+            <div class="game-box h-100">
+              <div class="game-box-body p-3 pb-2">
+                <img
+                  class="w-100 h-100 rounded-2"
+                  src="images/thumbnail.jpg"
+                  alt=""
+                />
+                <div
+                  class="game-box-content pt-3 d-flex align-items-start justify-content-between"
+                >
+                  <h2 class="fs-6">Tarisland</h2>
+                  <p class="px-2 py-1 rounded-2">Free</p>
+                </div>
+                <p class="small opacity-50 text-center">
+                  A,cross-platform,MMORPG,developed,by,Level,Infinite,and
+                </p>
+              </div>
+              <footer
+                class="game-box-footer p-2 d-flex align-items-start justify-content-between w-100"
+              >
+                <span class="px-2 py-1 rounded-2 smaller badge-color"
+                  >MMORPG</span
+                >
+                <span class="px-2 py-1 rounded-2 smaller badge-color"
+                  >PC(Windows)</span
+                >
+              </footer>
+            </div>
+          </div> -->
+        </div>
+      </section>
+
+      <section class="container d-none" id="details">
+             <div class="vh-100 d-flex justify-content-center align-items-center">
+              <span class="container loader"></span>
+             </div>
+        <!-- <div class="d-flex justify-content-between">
+          <h1 class="h3">Details Game:</h1>
+          <i class="fa-solid fa-xmark fa-2x close-icon opacity-50"></i>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="details-img mt-2">
+              <img class="w-100" src="images/thumbnail.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="details-content">
+              <div class="d-flex fs-3">
+                <p>Title :</p>
+                <p class="mx-1">Overwatch 2</p>
+              </div>
+              <div class="d-flex">
+                <p>Category :</p>
+                <p
+                  class="px-2 py-1 mx-1 rounded-2 smaller text-dark fw-bolder detail-badge-color"
+                >
+                  shooter
+                </p>
+              </div>
+              <div class="d-flex">
+                <p>Platform :</p>
+                <p
+                  class="px-2 py-1 mx-1 rounded-2 smaller text-dark fw-bolder detail-badge-color"
+                >
+                  Windows
+                </p>
+              </div>
+              <div class="d-flex">
+                <p>Status :</p>
+                <p
+                  class="px-2 py-1 mx-1 rounded-2 smaller text-dark fw-bolder detail-badge-color"
+                >
+                  Live
+                </p>
+              </div>
+
+              <p class="description">
+                The tale of the hero organization Overwatch continues in
+                Overwatch 2. This new take on the popular team shooter changes
+                up things a little with five-man teams, redefined classes, and
+                new playable characters. With the adjustment to 5v5, players now
+                have more individual impact than in the previous game. Challenge
+                yourself in all-new modes. Take control of a robot with your
+                team in Push and take it to the enemy base before the enemy can
+                take it from you. Explore all new areas, including iconic
+                real-world cities such as New York, Rome, Monte Carlo, Toronto,
+                and more. Overwatch 2 features an update schedule that drops new
+                content every nine weeks. It also boasts a regular battle pass –
+                both free and premium. This is where some of the game’s
+                characters will be obtained.
+              </p>
+
+              <button class="btn btn-outline-warning text-light">
+                Show Game
+              </button>
+            </div>
+          </div>
+        </div> -->
+      </section>
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
